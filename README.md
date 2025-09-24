@@ -2,8 +2,7 @@
 # I/O System Calls
 
 The project is centered around performance.
-Try to get disk I/O as fast as possible and evaluate the effects of caches and the
-cost of system calls.
+Try to get disk I/O as fast as possible and evaluate the effects of caches and the cost of system calls.
 
 ***When running a Ubuntu container in Docker, you should make the container run in privileged
 mode by adding the --privileged parameter, which will give the container higher
