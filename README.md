@@ -42,7 +42,7 @@ If you want to test `run2.c` with another file or different block count, you can
 ./run2 <filename> <block_size>
 ```
 
-***Extra credit - dd***
+***Extra - dd***
 
 Ensure that the machine is already in a sudo mode or run by a root user.
 
@@ -55,7 +55,7 @@ sudo dd if=test2.txt of=/dev/null bs=4096 count=1048576
 
 You can change the file name `if`, block size `bs`, and block count `count` in the `dd` command.
 
-***Extra credit - Google Benchmark***
+***Extra - Google Benchmark***
 
 
 Ensure the Google Benchmark is installed globally.
@@ -172,7 +172,7 @@ chmod +x ./fast_pread_mmap.sh
 
 If you try to produce the graphs with a different file, you have to change the scripts directly.
 
-***Extra credit - AWS Cloud***
+***Extra - AWS Cloud***
 
 Assume that the running environment on AWS Cloud has been prepared completely.
 
